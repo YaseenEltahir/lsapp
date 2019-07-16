@@ -27,6 +27,13 @@ Route::get('/about', 'PagesController@about');
 Route::get('/services', 'PagesController@services');
 
 Route::resource('posts', 'PostsController');
+Route::resource('essays', 'EssaysController');
+Route::resource('books', 'BooksController');
+Route::resource('subscriptions', 'SubscriptionsController');
+
+Route::post('/essays/toggle', 'EssaysController@toggle');
+
 Auth::routes();
 
 Route::get('/dashboard', 'DashboardController@index');
+Route::get('/download/{file_name}', 'FilesController@getDownload');

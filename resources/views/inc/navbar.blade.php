@@ -27,6 +27,10 @@
               <li><a href="/about">About</a></li>
               <li><a href="/services">Services</a></li>
               <li><a href="/posts">Blog</a></li>
+              <li><a href="/essays">Essays</a></li>
+              <li><a href="/books">Books</a></li>
+              <li><a href="/subscriptions">Subscriptions</a></li>
+
             </ul>
 
             <!-- Right Side Of Navbar -->
